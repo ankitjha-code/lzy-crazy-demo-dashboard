@@ -2,6 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import {
+  HomeIcon,
   ImageIcon,
   LogOut,
   Megaphone,
@@ -26,6 +27,13 @@ const Sidebar = () => {
       <nav className="flex-1 p-4 space-y-6">
         <Link
           to="/"
+          className="flex flex-col items-center lg:items-start gap-1 px-2 lg:px-3 text-sm"
+        >
+          <HomeIcon className="size-6 text-base-content opacity-70" />
+          <span className="hidden lg:inline mt-1">Dashboard</span>
+        </Link>
+        <Link
+          to="/add-category"
           className="flex flex-col items-center lg:items-start gap-1 px-2 lg:px-3 text-sm"
         >
           <Plus className="size-6 text-base-content opacity-70" />
