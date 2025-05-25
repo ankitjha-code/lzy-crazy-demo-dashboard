@@ -1,12 +1,21 @@
-# React + Vite
+# Lzy Crazy Demo Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Lzy Crazy Demo Dashboard**!
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://lzy-crazy-demo-dashboard.vercel.app/](https://lzy-crazy-demo-dashboard.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a demo dashboard built with JavaScript.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Interactive dashboard UI
+- Deployed on Vercel
+
+## Getting Started
+
+Clone the repository and follow the instructions to run locally.
+
+```bash
+git clone https://github.com/ankitjha-code/lzy-crazy-demo-dashboard.git
+cd lzy-crazy-demo-dashboard
+# Install dependencies and start your project as needed
