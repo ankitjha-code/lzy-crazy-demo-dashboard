@@ -33,7 +33,7 @@ const Sidebar = () => {
         </Link>
 
         <Link
-          to="/friends"
+          to="/addShop"
           className="flex flex-col items-center lg:items-start gap-1 px-2 lg:px-3 text-sm"
         >
           <ShoppingBagIcon className="size-6 text-base-content opacity-70" />
